@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article One</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo anime-title">AnimeBlog</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#articles">Articles</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <img src="images/1984.jpg" alt="Image Description">
+            <h2 class="anime-title">Article One</h2>
+            <p>Full content of article one...</p>
+            <section id="comments" class="content">
+                <h2 class="anime-title">Comments</h2>
+                <form id="commentForm">
+                    <label for="commentName">Name:</label>
+                    <input type="text" id="commentName" name="commentName" required>
+                    <label for="commentText">Comment:</label>
+                    <textarea id="commentText" name="commentText" required></textarea>
+                    <button type="submit" class="btn anime-button">Submit</button>
+                </form>
+                <div id="commentSection"></div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AnimeBlog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

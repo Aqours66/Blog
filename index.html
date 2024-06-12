@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo anime-title">Blog</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1 class="anime-title">Welcome to My Blog</h1>
+            <p>Just Some blog</p>
+        </section>
+        <section id="articles" class="content">
+            <h2 class="anime-title">Latest Articles</h2>
+            <div class="article-container">
+                <div class="article anime-card">
+                    <img src="images/1984.jpg" alt="Image Description">
+                    <h3><a href="article1.html">Article One</a></h3>
+                    <p>A short summary of article one...</p>
+                </div>
+                <div class="article anime-card">
+                    <img src="images/1986.jpg" alt="Image Description">
+                    <h3><a href="article2.html">Article Two</a></h3>
+                    <p>A short summary of article two...</p>
+                </div>
+                <div class="article anime-card">
+                    <img src="images/1993.jpg" alt="Image Description">
+                    <h3><a href="article3.html">Article Three</a></h3>
+                    <p>A short summary of article three...</p>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="content">
+            <h2 class="anime-title">About Us</h2>
+            <p>Information about the blog and the team.</p>
+        </section>
+        <section id="contact" class="content">
+            <h2 class="anime-title">Contact Us</h2>
+            <form id="contactForm">
+                <label for="contactName">Name:</label>
+                <input type="text" id="contactName" name="name" required>
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="email" required>
+                <label for="contactMessage">Message:</label>
+                <textarea id="contactMessage" name="message" required></textarea>
+                <button type="submit" class="btn anime-button">Submit</button>
+            </form>
+        </section>
+        <section id="newsletter" class="content">
+            <h2 class="anime-title">Subscribe to our Newsletter</h2>
+            <form id="newsletterForm">
+                <label for="newsletterEmail">Email:</label>
+                <input type="email" id="newsletterEmail" name="email" required>
+                <button type="submit" class="btn anime-button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ong Wei An Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
